@@ -6,9 +6,9 @@ stages {
     stage('build') {
       steps {
         script {
-          echo "Checking date "
+          echo "Checking date"
           sleep 10
-          echo "Integrité de la coque à 100%"
+          echo "Update date"
         }
       }
     }
