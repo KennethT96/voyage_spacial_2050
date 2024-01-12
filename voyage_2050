@@ -3,21 +3,21 @@ agent any
 /* Déclarations des étapes de construction du Pipeline */
 
 stages {
-    stage('build') {
+    stage('Update') {
       steps {
         script {
-          echo "Checking date"
+          echo "Checking date range"
           sleep 10
-          echo "Update date"
+          echo "Update date range"
         }
       }
     }
-    stage('Test') {
+    stage('') {
       steps {
         script {
-          echo "Verification des équipement de navigation"
+          echo "Verification du temps de chargement"
           sleep 10
-          echo "Léger disfonctionnement de la carte numerique" 
+          echo "temps de chargement reduit" 
         }
       }
     }
