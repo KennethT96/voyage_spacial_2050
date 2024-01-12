@@ -12,7 +12,7 @@ stages {
         }
       }
     }
-    stage('') {
+    stage('Time') {
       steps {
         script {
           echo "Verification du temps de chargement"
